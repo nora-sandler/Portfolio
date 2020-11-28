@@ -1,4 +1,4 @@
-Porfolio Page for Evan Poe
+Porfolio Page for Nora Sandler
 
 Live Site:
-https://evanpoe.github.io/Portfolio-Page/
+https://nora-sandler.github.io/portfolio/
