@@ -175,7 +175,8 @@ section {
   padding-bottom: 20px;
   /* border-bottom: 2px solid green; */
   text-align: left;
-  font-family: "Roboto", serif;
+  /* font-family: "Roboto", serif; */
+  font-family: sans-serif;
 }
 
 section h2 {
@@ -196,7 +197,7 @@ section.about h2 img.about-me-image {
 }
 
 section.about p.bio {
-  font-size: 90%;
+  font-size: 100%;
   margin-bottom: 20px;
 }
 
