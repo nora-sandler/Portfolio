@@ -185,8 +185,8 @@ section h2 {
   border-bottom: 1px solid #ddd;
 }
 
-section.about {
-}
+/* section.about {
+} */
 
 section.about h2 img.about-me-image {
   float: right;
