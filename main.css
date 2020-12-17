@@ -1,13 +1,6 @@
-/*
-The CSS code gets to executed from top to bottom and left ro right
-Basic rules to write CSS
-- write GENERAL rules first (for all the paragraph tags in the website for example) and only after that write CSS for SPECIFIC tags (for example the paragraph tags inside the footer)
-- write the css styles to define for the parent (outside) container and THEN the children (inside containers) of that parent and THEN the children (inside containers) of the child above
-*/
 
 /* -------------------------------------
 CSS reset
-Is a short set of CSS rules that resets the styling of all HTML elements to a consistent baseline so the website will look the same on all browsers
 */
 
 * {
@@ -15,7 +8,6 @@ Is a short set of CSS rules that resets the styling of all HTML elements to a co
   padding: 0;
   border: 0;
   font-size: 100%;
-  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
   box-sizing: border-box;
   /*reset Chrome user agent styles*/
   -webkit-margin-before: 0px;
@@ -57,7 +49,7 @@ Is a short set of CSS rules that resets the styling of all HTML elements to a co
 
 /* -------------------------------------
 General styles (General Module, wrapping around the modules below)
-(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules below (h2, h3, h4, h5, h6, p, a, ul, li))
+
 */
 
 body {
@@ -88,7 +80,7 @@ a {
 
 /* -------------------------------------
 Header styles (Main Module)
-(all the styles inside the < header > or < nav > tags)
+
 */
 
 header {
@@ -165,7 +157,6 @@ header nav ul.nav-items li a:hover {
 
 /* -------------------------------------
 Content styles (Main Module)
-(all the styles inside the < sections > or < aside > tags)
 */
 
 section {
@@ -185,8 +176,6 @@ section h2 {
   border-bottom: 1px solid #ddd;
 }
 
-/* section.about {
-} */
 
 section.about h2 img.about-me-image {
   float: right;
@@ -347,7 +336,6 @@ section.contact ul.contact-list li a:hover {
 
 /* -------------------------------------
 Footer styles (Main Module)
-(all the styles inside the < footer > tag)
 */
 
 footer {
@@ -373,24 +361,21 @@ footer a:hover i.far {
 }
 
 /* -------------------------------------
-place all the desktop styles above this line
 Responsive styles
-(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
-place all the mobile tables styles below this line
 */
 
 /*large desktop*/
 @media only screen and (max-width: 1600px) {
-  body {
-    /* border: 3px solid yellow; */
-  }
+  /* body {
+    border: 3px solid yellow;
+  } */
 }
 
 /*iPad lanscape / small laptop*/
 @media only screen and (max-width: 1024px) {
-  body {
-    /* border: 3px solid blue; */
-  }
+  /* body {
+    border: 3px solid blue;
+  } */
 
   header nav ul.nav-items li {
     padding: 5px 10px;
@@ -413,9 +398,9 @@ place all the mobile tables styles below this line
 
 /*iPad potrait*/
 @media only screen and (max-width: 768px) {
-  body {
-    /* border: 3px solid red; */
-  }
+  /* body {
+    border: 3px solid red;
+  } */
 
   header {
     height: 500px;
@@ -442,9 +427,9 @@ place all the mobile tables styles below this line
 
 /*Android landscape*/
 @media only screen and (max-width: 640px) {
-  body {
-    /* border: 3px solid brown; */
-  }
+  /* body {
+    border: 3px solid brown;
+  } */
 
   header h1 {
     font-size: 175%;
@@ -457,9 +442,9 @@ place all the mobile tables styles below this line
 
 /*iPhone landscape*/
 @media only screen and (max-width: 480px) {
-  body {
-    /* border: 3px solid green; */
-  }
+  /* body {
+    border: 3px solid green;
+  } */
 
   header h1 {
     font-size: 150%;
@@ -488,7 +473,7 @@ place all the mobile tables styles below this line
 
 /*iPhone portrait*/
 @media only screen and (max-width: 320px) {
-  body {
-    /* border: 3px solid purple; */
-  }
+  /* body {
+    border: 3px solid purple;
+  } */
 }
